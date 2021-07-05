@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - grunt-electron-installer-debian > electron-installer-debian > debug:
+        patched: '2021-07-05T22:18:04.600Z'
+  SNYK-JS-LODASH-567746:
+    - grunt-electron-installer-debian > electron-installer-debian > lodash:
+        patched: '2021-07-05T22:18:04.600Z'
+  'npm:stringstream:20180511':
+    - grunt-electron-installer-debian > electron-installer-debian > asar > mksnapshot > request > stringstream:
+        patched: '2021-07-05T22:18:04.600Z'
+  'npm:tough-cookie:20170905':
+    - grunt-electron-installer-debian > electron-installer-debian > asar > mksnapshot > request > tough-cookie:
+        patched: '2021-07-05T22:18:04.600Z'
